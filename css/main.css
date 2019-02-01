@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 { 
+    color: black; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 54px; 
+    font-weight: 300; 
+    line-height: 58px; 
+    margin: 5%;
+}
+
+footer {
+	font-size: 14px;
+	color: #515151;
+	width: 100%;
+	bottom: 0px;
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+	margin: 1% 10%;
+	padding: 5%;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 36, 36);
+    /* border: 1px solid #e7e7e7; */
+}
+  
+li {
+	float: left;
+}
+  
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active), a:focus:not(.active), .active {
+	color: rgb(36, 36, 36);
+    background-color: whitesmoke;
+}
+
+p {
+    color: black; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    line-height: 26px;
+    margin: 1%;
+}
+
+h2 {
+	font-size: 20px;
+	position: relative;
+	margin: 2%;
+	top: 2%;
+	left: 1%;
+	width: 100%;
+}
+
+.poster {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.sec{
+	display: flex;
+	margin: 2%;
+	height: 200px;
+	width: 90%;
+}
+
+.skip{
+	position: relative;
+	left: -2000px;
+}
+
+.skip:focus{
+	position: static;
+}
+
+.project_description {
+	display: block;
+    color: black;
+	line-height: 1.2;
+	width: 60%;
+}
+
+.projectsec {
+	display: flex;
+	margin: 5%;
+	height: 200px;
+	width: 100%;
+}
+
+.shortsec {
+	display: flex;
+	margin: 0% 0% 0% 3%;
+}
+
+.shortdesc {
+	display: flex;
+	width: 50%
+}
+
+.moviedesc {
+	margin: 1%;
+	width: 25%;
+}
+
+.rightnav {
+	float: right;
+}
+
+#blockm {
+	margin: 3%;	
+	padding: 3%;
+	height: 200px;
+	width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav li.a, li, .rightnav {
+		float: none;
+	}
+  }
