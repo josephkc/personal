@@ -184,9 +184,10 @@ h2 {
 }
 
 #bottom-footer {
-    position: relative;
+	position: relative;
     left: 0;
-    bottom: 0;
-    height: 100px;
+	bottom: 0;
+	padding: 0;
+    height: 50px;
 	width: 100%;
 }
